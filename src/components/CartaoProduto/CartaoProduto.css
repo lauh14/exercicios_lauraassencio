@@ -1,0 +1,28 @@
+.principal{
+    display: flex;
+}
+
+.conteiner{
+    display: flex;
+    width:250px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px black;
+    margin: 10px;
+    align-items: center;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.card-preco{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
