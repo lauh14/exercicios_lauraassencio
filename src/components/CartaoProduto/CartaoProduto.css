@@ -1,9 +1,9 @@
 .principal{
     display: flex;
+    justify-content: center;
 }
 
 .conteiner{
-    display: flex;
     width:250px;
     border: 1px solid #ddd;
     border-radius: 12px;
@@ -11,7 +11,6 @@
     text-align: center;
     box-shadow: 0 2px 8px black;
     margin: 10px;
-    align-items: center;
 }
 
 .imagem{

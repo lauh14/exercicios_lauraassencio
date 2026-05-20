@@ -11,7 +11,8 @@ const App = () => {
       <BoasVindas nome="Laura" />
       <MensagemSecreta mensagem = {true}/>
       <MensagemSecreta mensagem = {false}/>
-
+      <hr />
+      
       <div className="principal">
         <CartaoProduto
           imagem="imagem1.jpg"
