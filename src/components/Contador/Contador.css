@@ -15,7 +15,7 @@ h2{
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -28,21 +28,21 @@ h1 {
 }
 
 .incrementar {
-  background-color: rgb(239, 174, 250);
+  background-color: green;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .incrementar:hover {
-  background-color: rgb(196, 120, 211);
+  background-color: darkgreen;
 }
 
 .descrementar {
-  background-color: rgb(239, 174, 250);
+  background-color: rgb(171, 3, 3);
   font-family: 'Courier New', Courier, monospace;
 }
 
 .descrementar:hover {
-  background-color: rgb(196, 120, 211);
+  background-color: darkred;
 }
 
 .limpar {
