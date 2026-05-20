@@ -28,21 +28,21 @@ h1 {
 }
 
 .incrementar {
-  background-color: green;
+  background-color: rgb(250, 174, 187);
   font-family: 'Courier New', Courier, monospace;
 }
 
 .incrementar:hover {
-  background-color: darkgreen;
+  background-color: rgb(225, 149, 162);
 }
 
 .descrementar {
-  background-color: rgb(171, 3, 3);
+  background-color: rgb(255, 153, 170);
   font-family: 'Courier New', Courier, monospace;
 }
 
 .descrementar:hover {
-  background-color: darkred;
+  background-color: rgb(211, 120, 135);
 }
 
 .limpar {

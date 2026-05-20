@@ -1,8 +1,9 @@
 .titulo{
     font-family: 'Courier New', Courier, monospace;
     font-size: 56px;
-    color: rgb(58, 88, 157);
-    background-color: antiquewhite;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 187, 187);
     padding: 20px;
     margin-top: 20px;
+    text-align: center;
 }
