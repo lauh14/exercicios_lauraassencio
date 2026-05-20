@@ -1,5 +1,5 @@
-import { useState } from "react"
-import "./Formulario.css"
+import { useState } from "react";
+import "./Formulario.css";
 
 const Formulario = () => {
 
@@ -9,39 +9,49 @@ const Formulario = () => {
 
     const enviarFormulario = (evento) => {
         evento.preventDefault();
+
         alert(
-            "Nome:" + nome + "\nEmail:" + email + "\nTelefone:" + telefone
+            "Nome: " + nome +
+            "\nEmail: " + email +
+            "\nTelefone: " + telefone
         );
     }
 
-    return(
-        <div className="conteiner-form">
-            <form onSubmit={enviarFormulario}>
-                <input 
-                    type="text" 
-                    placeholder="Nome"
-                    value={nome}
-                    onChange={(e)=> setNome(e.target.value)}
-                />
+return (
+    <div className="conteiner-form ">
+        <form onSubmit={enviarFormulario}>
+            <h1>Formulário</h1>
 
-                <input
-                    type="email"
-                    placeholder="E-mail"
-                    value={email}
-                    onChange={(e)=> setEmail(e.target.value)}
-                />
+            <label htmlFor="nome">Nome:</label>
+            <input
+                type="text"
+                placeholder="Nome"
+                value={nome}
+                onChange={(e) => setNome(e.target.value)}
+            />
 
-                <input 
-                    type="text"
-                    placeholder="Telefone"
-                    value={telefone}
-                    onChange={(e)=> setTelefone(e.target.value)}
-                />
+            <label htmlFor="email">E-mail:</label>
+            <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+            />
 
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    );
+            <label htmlFor="telefone">Telefone:</label>
+            <input
+                type="text"
+                placeholder="Telefone"
+                value={telefone}
+                onChange={(e) => setTelefone(e.target.value)}
+            />
+
+        <button type="submit">Enviar</button>
+
+      </form>
+
+    </div>
+  );
 }
 
 export default Formulario;
