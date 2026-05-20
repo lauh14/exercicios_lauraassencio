@@ -4,6 +4,7 @@ import MensagemSecreta from "./components/MensagemSecreta/MensagemSecreta";
 import CartaoProduto from "./components/CartaoProduto/CartaoProduto";
 import Contador from "./components/Contador/Contador";
 import Botao from "./components/Botao/Botao";
+import Formulario from "./components/Formulario/Formulario";
 
 const App = () => {
   return(
@@ -12,7 +13,7 @@ const App = () => {
       <MensagemSecreta mensagem = {true}/>
       <MensagemSecreta mensagem = {false}/>
       <hr />
-      
+
       <div className="principal">
         <CartaoProduto
           imagem="imagem1.jpg"
@@ -36,6 +37,9 @@ const App = () => {
       <div>
         <Botao/>
       </div>
+      <hr />
+
+      <Formulario/>
     </>
   )
 }
