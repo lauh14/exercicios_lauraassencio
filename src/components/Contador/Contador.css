@@ -1,0 +1,55 @@
+.conteiner-botao {
+  width: 300px;
+  margin: 80px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.incrementar {
+  background-color: green;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.incrementar:hover {
+  background-color: darkgreen;
+}
+
+.descrementar {
+  background-color: rgb(171, 3, 3);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.descrementar:hover {
+  background-color: darkred;
+}
+
+.limpar {
+  background-color: gray;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.limpar:hover {
+  background-color: black;
+}

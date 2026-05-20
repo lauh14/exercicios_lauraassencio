@@ -2,6 +2,8 @@ import "./App.css";
 import BoasVindas from "./components/BoasVindas/BoasVindas";
 import MensagemSecreta from "./components/MensagemSecreta/MensagemSecreta";
 import CartaoProduto from "./components/CartaoProduto/CartaoProduto";
+import Contador from "./components/Contador/Contador";
+import Botao from "./components/Botao/Botao";
 
 const App = () => {
   return(
@@ -26,6 +28,12 @@ const App = () => {
           nome="Croassaint de chocolate"
           preco="24,80"
         />
+      </div>
+      <hr />
+
+      <Contador/>
+      <div>
+        <Botao/>
       </div>
     </>
   )
